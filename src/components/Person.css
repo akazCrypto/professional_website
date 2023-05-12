@@ -1,0 +1,267 @@
+@font-face {
+    font-family: 'QueensidesMedium';
+    /*a name to be used later*/
+    src: url('./QueensidesMedium-x30zV.ttf');
+    /*URL to font*/
+}
+
+@font-face {
+    font-family: 'HelveticaItalic';
+    /*a name to be used later*/
+    src: url('./HelveticaNeueItalic.ttf');
+    /*URL to font*/
+}
+
+
+.section {
+    background-color: #ffffff;
+    width: 1500px;
+    margin: 0 auto;
+
+    min-height: 100px;
+
+    padding: 0px;
+    position: relative;
+}
+
+
+
+.image_1 {
+    width: 700px;
+    height: auto;
+    bottom: 10%;
+    position: relative;
+    margin: 0 auto;
+    opacity: 0.7;
+
+    box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.9);
+
+}
+
+.image_2 {
+    width: 500px;
+    height: auto;
+    position: absolute;
+    left: 60%;
+    bottom: 35%;
+
+    box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.9);
+
+}
+
+.image_3 {
+    width: 450px;
+    height: auto;
+    position: absolute;
+    right: 65%;
+    bottom: 10%;
+
+    box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.9);
+
+
+
+}
+
+.image_4 {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    left: 55%;
+    bottom: 25%;
+
+    box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.9);
+
+}
+
+.image_5 {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    right: 60%;
+    bottom: 48%;
+
+    box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.9);
+
+}
+
+.person_title {
+    width: 1500px;
+    min-height: 80px;
+    margin: 0 auto;
+
+
+    text-decoration-line: underline;
+    text-decoration-color: #6f1628;
+
+
+}
+
+.person_title h6 {
+
+    font-family: 'Helvetica';
+    font-size: 3.3rem;
+    margin: auto;
+
+
+}
+
+@media screen and (max-width: 767px) {
+    .person_title {
+        width: 750px;
+    }
+
+    .section {
+        width: 750px;
+
+
+    }
+
+    .section .image_1 {
+        width: 350px;
+        opacity: 0.7;
+    }
+
+    .section .image_2 {
+        width: 250px;
+    }
+
+    .section .image_3 {
+        width: 250px;
+    }
+
+    .initial_section .initial_container .box h1 {
+        font-size: 0.85rem;
+    }
+
+    .initial_section .initial_container .box span {
+        font-size: 0.75rem;
+    }
+
+    .person_title h6 {
+        font-size: 1.5rem;
+        margin-left: 10px;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+
+    .section {
+
+        width: 375px;
+        margin: 0 auto;
+
+        min-height: 100px;
+
+        padding: 0px;
+        position: relative;
+    }
+
+    .person_title {
+        width: 375px;
+        margin: auto;
+    }
+
+
+
+    .section .image_1 {
+        width: 275px;
+        opacity: 0.7;
+    }
+
+    .section .image_2 {
+        width: 190px;
+
+    }
+
+    .section .image_3 {
+        width: 175px;
+
+    }
+
+    .initial_section .initial_container .box h1 {
+        font-size: 0.85rem;
+    }
+
+    .initial_section .initial_container .box span {
+        font-size: 0.75rem;
+    }
+
+    .person_title h6 {
+        font-size: 1.05rem;
+
+    }
+
+}
+
+/*
+
+background-color: #c8cbd0;
+
+z-index: 11;
+
+const Right = styled.div`
+
+
+width: 50%;
+position relative;
+
+img{
+    width: 100%;
+    height: auto;
+    
+}
+
+.small-img-1 {
+    width: 30%;
+    position: absolute;
+    right: 80%;
+    bottom: 60%;
+}
+
+.small-img-2 {
+    width: 40%;
+    position: absolute;
+    left: 45%;
+    bottom: 10%;
+    text-align: center;
+  color: white;
+  z-index: 6;
+}
+
+.small-img-3 {
+    width: 50%;
+    position: absolute;
+    right: 95%;
+    bottom: 20%;
+   
+}
+
+.small-img-4 {
+    width: 60%;
+    height: 43%;
+    position: absolute;
+    left: 65%;
+    bottom: 30%;
+    
+}
+
+.text-pic {
+    position: relative;
+    text-align: center;
+
+  
+}
+
+.text_ {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(40%, -50%);
+    color: ${props => props.theme.text_2};
+    font-family: La_Machine_Company;
+      white-space: pre-line;
+      font-size: ${props => props.theme.fontlg};
+    
+  }
+  */

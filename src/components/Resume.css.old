@@ -1,0 +1,193 @@
+.resume {
+    background-color: #0a192f;
+
+
+
+
+
+
+
+
+}
+
+.container {
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    gap: 1px 1px;
+
+    flex-direction: row;
+
+    color: #f0e9e9;
+
+
+
+}
+
+.boxes {
+
+
+    align-items: center;
+    justify-content: center;
+
+
+    display: flex;
+
+    margin-top: 10px;
+    margin-left: 160px;
+    margin-right: 1px;
+    background-color: #5c5c5f;
+
+    overflow: hidden;
+    height: auto;
+
+    box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+
+}
+
+.box {
+    background-color: #5c5c5f;
+
+    height: auto;
+    width: auto;
+
+
+
+
+}
+
+iframe {
+
+    width: 100%;
+    height: auto;
+}
+
+img {
+
+    width: 100%;
+    height: auto;
+}
+
+.picture {
+    width: 75%;
+    height: 75%;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+
+
+
+}
+
+.video {
+
+    width: 100%;
+    height: 100%;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+
+
+
+}
+
+.text {
+
+    white-space: pre-line;
+    color: rgb(20, 187, 234);
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+
+}
+
+
+h1 {
+
+    font-size: 1.2rem;
+    color: rgb(36, 35, 29);
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+h2 {
+
+    font-size: 1.0rem;
+    color: rgb(20, 20, 51);
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+h3 {
+
+    font-size: 0.9rem;
+    color: rgb(62, 22, 29);
+    font-weight: bold;
+
+
+}
+
+p {
+    padding: 5px 5px 5px 5px;
+    font-size: 0.9rem;
+    color: rgb(175, 175, 180);
+    font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+
+    .resume .container .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .picture {
+        padding-top: 0px;
+        padding-left: 40px;
+        margin-top: 0px;
+    }
+
+    .video {
+        padding-top: 0px;
+        padding-left: 40px;
+        margin-top: 0px;
+
+    }
+
+    .text {
+
+        padding-top: 0px;
+        padding-left: 40px;
+        margin-top: 5px;
+    }
+
+    .box {}
+
+    iframe {
+        width: 55%;
+        height: auto;
+    }
+
+    img {
+        border-radius: 10px 10px 10px 10px;
+        width: 75%;
+        height: auto;
+    }
+}
+
+
+/*
+
+675px 395px 395px;
+
+background: url('./abracadabra.jpg') no-repeat;
+display: none;
+visibility: hidden;
+
+#3b70be;
+*/

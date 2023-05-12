@@ -1,0 +1,46 @@
+import React from 'react';
+import Navbar from './components/Navbar';
+import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
+import Hero from './components/Hero';
+import About from './components/About';
+import Developers from './components/Developers';
+import Subscribe from './components/Subscribe';
+import Footer from './components/Footer';
+import ImageOne from './components/ImageOne';
+import ImageTwo from './components/ImageTwo';
+import ImageThree from './components/ImageThree';
+import ImageFour from './components/ImageFour';
+import TextBox from './components/TextBox';
+
+
+function App() {
+  return (
+    <div >
+      <Navbar />
+
+      <Hero />
+      <TextBox className='my-40 ' />
+      <ImageOne />
+      <TextBox />
+      <About />
+      <ImageTwo />
+      <Developers />
+      <ImageThree />
+      <TextBox />
+      <Subscribe />
+      <ImageFour />
+      <TextBox />
+      <Footer />
+    </div>
+  );
+}
+
+export default App;
+
+
+/*
+
+
+
+      
+      */

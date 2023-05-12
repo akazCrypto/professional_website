@@ -1,0 +1,60 @@
+.contact {
+    margin-top: 20px;
+}
+
+.contact_title {
+    width: 1500px;
+    height: 20px;
+    margin: 0 auto;
+    margin-bottom: 0px;
+
+    text-decoration-line: underline;
+    text-decoration-color: #6f1628;
+    padding: 20px 10px 60px 0px;
+
+}
+
+.contact_title h6 {
+    width: 1500px;
+    margin: auto;
+    font-size: 3.3rem;
+    font-family: 'Helvetica';
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .initial_section .initial_container .image {
+        width: 260px;
+        height: 100%;
+    }
+
+    .initial_section .initial_container .box {
+        width: 500px;
+        padding-right: 40px;
+
+    }
+
+    .initial_section .initial_container .box h1 {
+        font-size: 0.85rem;
+    }
+
+    .initial_section .initial_container .box span {
+        font-size: 0.75rem;
+    }
+
+    .contact_title {
+        width: 750px;
+        padding: 10px 10px 10px 10px;
+
+    }
+
+    .contact_title h6 {
+        font-size: 1.5rem;
+
+        margin: auto;
+
+    }
+
+}

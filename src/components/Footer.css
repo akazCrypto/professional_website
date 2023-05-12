@@ -1,0 +1,61 @@
+.footer {
+    background-color: #9ea1a5;
+    color: #f0f3f6;
+
+    border-top: 5px solid #6f1628;
+
+    padding: 1rem 1rem 1rem 1rem;
+    position: relative;
+
+    width: 1500px;
+
+    margin: 0 auto;
+
+
+}
+
+.copyright {
+    align-items: start;
+    justify-content: start;
+}
+
+@media screen and (max-width: 768px) {
+    .initial_section .initial_container .image {
+        width: 260px;
+        height: 100%;
+    }
+
+    .initial_section .initial_container .box {
+        width: 500px;
+        padding-right: 40px;
+
+    }
+
+    .initial_section .initial_container .box h1 {
+        font-size: 0.85rem;
+    }
+
+    .initial_section .initial_container .box span {
+        font-size: 0.75rem;
+    }
+
+    .initial_title h6 {
+        font-size: 1.5rem;
+        margin-left: 10px;
+    }
+
+    .footer {
+
+        width: 750px;
+    }
+
+    .footer .copyright {
+        font-size: 1.0rem;
+    }
+
+}
+
+/*
+<div className='border-t-4 border-[#6f1628]'>
+
+*/
